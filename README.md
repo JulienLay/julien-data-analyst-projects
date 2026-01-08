@@ -29,10 +29,10 @@ L'objectif est de **transformer des données brutes en insights exploitables** e
 ## Visualisations
 
 ### Bar Chart – Taux de chômage par département
-![Bar Chart](./data/visuals/taux_chomage_bar.png)
+![Bar Chart](./data/visuals/evolution_taux_chomage_par_departement.png)
 
 ### Histogramme – Distribution des taux
-![Histogramme](./data/visuals/taux_chomage_hist.png)
+![Histogramme](./data/visuals/distribution_taux_chomage.png)
 
 ### Évolution par trimestre
 ![Évolution](./data//visuals/taux_chomage_evolution.png)
