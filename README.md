@@ -5,7 +5,7 @@ Ce projet vise à analyser le **taux de chômage par département en France** po
 L'objectif est de **transformer des données brutes en insights exploitables** et de produire des visualisations claires pour soutenir la décision.
 
 ## Dataset
-- Source : INSEE – [Taux de chômage localisés au 3ᵉ trimestre 2025](https://www.insee.fr)  
+- Source : INSEE – [Taux de chômage localisés au 3ᵉ trimestre 2025](https://www.insee.fr/fr/statistiques/2012804)  
 - Fichier principal : `data/raw/TCRD_025.xlsx`  
 - Fichier nettoyé utilisé pour l'analyse : `data/cleaned/chomage_departements_clean.csv`  
 - Contient les taux de chômage par département pour T3 2025, T2 2025 et T3 2024.
@@ -29,16 +29,16 @@ L'objectif est de **transformer des données brutes en insights exploitables** e
 ## Visualisations
 
 ### Bar Chart – Taux de chômage par département
-![Bar Chart](./visuals/taux_chomage_bar.png)
+![Bar Chart](./data/visuals/taux_chomage_bar.png)
 
 ### Histogramme – Distribution des taux
-![Histogramme](./visuals/taux_chomage_hist.png)
+![Histogramme](./data/visuals/taux_chomage_hist.png)
 
 ### Évolution par trimestre
-![Évolution](./visuals/taux_chomage_evolution.png)
+![Évolution](./data//visuals/taux_chomage_evolution.png)
 
 ### Corrélations entre trimestres
-![Heatmap](./visuals/correlation_heatmap.png)
+![Heatmap](./data/visuals/correlation_heatmap.png)
 
 ## Insights clés
 - Les départements avec un taux de chômage supérieur à la moyenne nationale peuvent nécessiter des mesures spécifiques.  
