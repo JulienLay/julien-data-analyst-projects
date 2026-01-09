@@ -21,7 +21,7 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
   - Clients récents  
   - Clients à risque  
 - Visualisations : répartition des segments, chiffre d’affaires par segment, chiffre d’affaires mensuel.  
-- [README du projet détaillé](rfm_online_retail/README.md)
+- [README du projet détaillé](analyse_ventes_ecommerce/README.md)
 
 ### 3. [Nom du projet 3]
 - **Dossier** : `projet3_nom`  
