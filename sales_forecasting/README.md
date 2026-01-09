@@ -35,10 +35,10 @@ L'objectif est de transformer des données brutes en insights exploitables et de
 - Top 10 lignes de produits  
 - Prévision du CA mensuel  
 
-![CA Mensuel](../data/visuals/monthly_sales.png)  
-![CA par Pays](../data/visuals/country_sales.png)  
-![Top Produits](../data/visuals/top_products.png)  
-![Prévision CA Mensuel](../data/visuals/monthly_sales_forecast.png)
+![CA Mensuel](../sales_forecasting/data/visuals/monthly_sales.png)  
+![CA par Pays](../sales_forecasting/data/visuals/country_sales.png)  
+![Top Produits](../sales_forecasting/data/visuals/top_products.png)  
+![Prévision CA Mensuel](../sales_forecasting/data/visuals/monthly_sales_forecast.png)
 
 ## Insights clés
 - Certaines périodes montrent des pics de ventes (saisonnalité).  
