@@ -14,7 +14,7 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - [README du projet détaillé](taux_chomage_departements/README.md)
 
 ### 2. Analyse clients et segmentation RFM – Online Retail
-- **Dossier** : `rfm_online_retail`  
+- **Dossier** : `analyse_ventes_ecommerce`  
 - Analyse des transactions clients d’un site e-commerce et segmentation RFM (**Recency, Frequency, Monetary**) pour identifier :
   - Meilleurs clients  
   - Clients fidèles  
