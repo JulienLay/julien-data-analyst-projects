@@ -26,7 +26,7 @@ L’objectif est de transformer des données brutes en insights exploitables pou
 ## Outils
 - **Python**  
 - Librairies : `pandas`, `numpy`, `matplotlib`, `seaborn`, `openpyxl`  
-- Jupyter Notebook : `01_analysis.ipynb`
+- Jupyter Notebook : `analyse_ventes.ipynb`
 
 ---
 
