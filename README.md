@@ -23,11 +23,11 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Visualisations : répartition des segments, chiffre d’affaires par segment, chiffre d’affaires mensuel.  
 - [README du projet détaillé](analyse_ventes_ecommerce/README.md)
 
-### 3. [Nom du projet 3]
-- **Dossier** : `projet3_nom`  
-- Description courte du projet 3 ici.  
-- Visualisations et insights clés.  
-- [README du projet](projet3_nom/README.md)
+### 3. Prévision du chiffre d’affaires mensuel – Store Item Demand Forecasting
+- **Dossier** : `sales_forecasting`  
+- Analyse et prévision du chiffre d’affaires d’un site e-commerce par produit et par mois.  
+- Visualisations : CA mensuel, CA par pays, top 10 produits, prévision linéaire.  
+- [README du projet détaillé](sales_forecasting/README.md)
 
 ---
 
