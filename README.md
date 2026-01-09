@@ -13,11 +13,15 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Visualisations : bar chart, histogramme, évolution trimestrielle, heatmap.  
 - [README du projet détaillé](taux_chomage_departements/README.md)
 
-### 2. [Nom du projet 2]
-- **Dossier** : `projet2_nom`  
-- Description courte du projet 2 ici.  
-- Visualisations et insights clés.  
-- [README du projet](projet2_nom/README.md)
+### 2. Analyse clients et segmentation RFM – Online Retail
+- **Dossier** : `rfm_online_retail`  
+- Analyse des transactions clients d’un site e-commerce et segmentation RFM (**Recency, Frequency, Monetary**) pour identifier :
+  - Meilleurs clients  
+  - Clients fidèles  
+  - Clients récents  
+  - Clients à risque  
+- Visualisations : répartition des segments, chiffre d’affaires par segment, chiffre d’affaires mensuel.  
+- [README du projet détaillé](rfm_online_retail/README.md)
 
 ### 3. [Nom du projet 3]
 - **Dossier** : `projet3_nom`  
