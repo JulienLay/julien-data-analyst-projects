@@ -29,6 +29,17 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Visualisations : CA mensuel, CA par pays, top 10 produits, prévision linéaire.  
 - [README du projet détaillé](sales_forecasting/README.md)
 
+### 4. Analyse des films – MovieLens (Python + SQL)
+- **Dossier** : `python_sql_movie_analysis`  
+- Mini-projet d’analyse de données sur le dataset [MovieLens](https://grouplens.org/datasets/movielens/) pour explorer les films, les utilisateurs et leurs notes.  
+- Objectifs :  
+  - Calculer la moyenne des notes par genre et par tranche d’âge du film  
+  - Étudier la corrélation entre nombre de votes et note moyenne  
+  - Visualiser les résultats avec **Matplotlib** et **Seaborn**  
+  - Réaliser une **mini-prédiction** des notes avec Linear Regression  
+- Compétences démontrées : Python (Pandas, Matplotlib, Seaborn, scikit-learn), SQL via SQLite, Data Cleaning, Visualisation, Modélisation simple  
+- [README du projet détaillé](python_sql_movie_analysis/README.md)
+
 ---
 
 ## Objectif du portfolio
