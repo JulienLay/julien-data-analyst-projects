@@ -53,7 +53,7 @@ Ce projet est un mini-projet de **Data Analysis** sur le dataset [MovieLens](htt
 1. Cloner le projet :  
 
 ```
-git clone <https://github.com/JulienLay/julien-data-analyst-projects/tree/main/python_sql_movie_analysis>
+git clone https://github.com/JulienLay/julien-data-analyst-projects/tree/main/python_sql_movie_analysis
 ```
 
 2. Installer les dépendances :
