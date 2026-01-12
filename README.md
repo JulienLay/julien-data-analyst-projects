@@ -48,7 +48,3 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Permettre aux recruteurs de voir **mes compétences concrètes en Python et Data Analysis**.
 
 ---
-
-💡 **Conseil pour naviguer** :  
-Chaque projet a son propre dossier avec **notebook + data + visuals + README**.  
-Pour visualiser les graphiques et analyses, ouvrez simplement le notebook correspondant.
