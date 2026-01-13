@@ -42,6 +42,71 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 
 ---
 
+### 5. Analyse des festivals – Dashboard Power BI
+- **Dossier** : `powerbi_festivals`  
+- Analyse interactive des festivals et événements culturels à travers différentes disciplines artistiques.  
+- Fichiers inclus :
+  - `festivals.pbix` → Dashboard Power BI interactif  
+  - `festivals.pdf` → Rendu visuel du dashboard  
+
+**Pages du dashboard :**
+- **Événements dans le monde** : carte interactive avec filtres par région et date  
+- **Régions & communes** :  
+  - Nombre de régions par décennie de création  
+  - Nombre de communes par discipline  
+  - Carte des régions de déroulement  
+- **Audiovisuel & littérature** :  
+  - Disciplines dominantes pour arts visuels & numériques  
+  - Cinéma & audiovisuel  
+  - Littérature  
+- **Musiques & spectacles** :  
+  - Musique  
+  - Musique CNM  
+  - Spectacles vivants  
+
+- Compétences : Power BI, Data Visualisation, Analyse descriptive, DAX.  
+- [README du projet détaillé](powerbi_festivals_analyse/README.md)
+
+---
+
+### 6. Analyse du marché des développeurs – Dashboard Power BI
+- **Dossier** : `powerbi_developer_analyse`  
+- Analyse du marché des développeurs à l’échelle mondiale à partir de données socio-professionnelles.    
+
+**Pages du dashboard :**
+- **Répartition des développeurs**
+  - Carte mondiale et indicateurs de répartition par pays et région  
+
+- **Niveau par âge et expérience**
+  - Analyse croisée de l’âge et de l’expérience professionnelle  
+  - Visualisations comparatives  
+
+- **Emplois de développeur dans le monde**
+  - Répartition géographique des opportunités d’emploi  
+  - Filtres interactifs par zone  
+
+- **Niveaux d’éducation dans le monde**
+  - Analyse des niveaux de formation des développeurs  
+  - Comparaison par région  
+
+- **Langages**
+  - Popularité des langages de programmation  
+  - Comparaisons par type de profil  
+
+- **Budget**
+  - Analyse des budgets / rémunérations par poste et localisation  
+
+- **Lieu de travail**
+  - Répartition remote / hybride / présentiel  
+
+- **Impact de l’IA**
+  - Adoption de l’IA et perception de son impact sur le métier de développeur  
+
+- Compétences : Power BI, Data Visualisation, Analyse descriptive, KPIs, DAX.  
+- [README du projet détaillé](powerbi_developer_analyse/README.md)
+
+---
+
 ## Objectif du portfolio
 - Montrer mes compétences en **analyse de données, visualisation, nettoyage et insights métiers**  
 - Fournir des projets complets et **reproductibles**, prêts pour l’entretien ou démonstration.  
