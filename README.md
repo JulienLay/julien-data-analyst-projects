@@ -51,7 +51,7 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 ---
 
 ### 5. Analyse des festivals – Dashboard Power BI
-- **Dossier** : `powerbi_festivals`  
+- **Dossier** : `powerbi_festivals_analyse`  
 - Analyse interactive des festivals et événements culturels à travers différentes disciplines artistiques.  
 - Fichiers inclus :
   - `festivals.pbix` → Dashboard Power BI interactif  
