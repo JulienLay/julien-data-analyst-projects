@@ -15,6 +15,8 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Visualisations : bar chart, histogramme, évolution trimestrielle, heatmap.  
 - [README du projet détaillé](taux_chomage_departements/README.md)
 
+---
+
 ### 2. Analyse clients et segmentation RFM – Online Retail
 - **Dossier** : `analyse_ventes_ecommerce`  
 - Analyse des transactions clients d’un site e-commerce et segmentation RFM (**Recency, Frequency, Monetary**) pour identifier :
