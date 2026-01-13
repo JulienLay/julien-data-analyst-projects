@@ -13,6 +13,9 @@ Le repository contient :
 - `festivals.pbix` → fichier Power BI avec toutes les visualisations et mesures DAX  
 - `festivals.pdf` → rendu visuel du dashboard, page par page  
 
+
+[Voir le rendu visuel du dashboard](festivals.pdf)
+
 ---
 
 ## Pages du dashboard
@@ -52,3 +55,4 @@ Le repository contient :
 2. Explorer chaque page du dashboard avec les **slicers interactifs**  
 3. Filtrer les données par région, date, discipline, etc.  
 4. Le fichier PDF permet de visualiser rapidement le dashboard sans Power BI  
+

@@ -13,6 +13,9 @@ Le repository contient :
 - `developer_analyse.pbix` → fichier Power BI avec toutes les visualisations et mesures DAX  
 - `Visualisation.pdf` → rendu visuel du dashboard, page par page  
 
+
+[Voir le rendu visuel du dashboard](Visualisation.pdf)
+
 ---
 
 ## Pages du dashboard
