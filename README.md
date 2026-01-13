@@ -5,6 +5,13 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 
 ---
 
+## Objectif du portfolio
+- Montrer mes compétences en **analyse de données, visualisation, nettoyage et insights métiers**  
+- Fournir des projets complets et **reproductibles**, prêts pour l’entretien ou démonstration.  
+- Permettre aux recruteurs de voir **mes compétences concrètes en Python et Data Analysis**.
+
+---
+
 ## Projets inclus
 
 ---
@@ -112,12 +119,3 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 
 - Compétences : Power BI, Data Visualisation, Analyse descriptive, KPIs, DAX.  
 - [README du projet détaillé](powerbi_developer_analyse/README.md)
-
----
-
-## Objectif du portfolio
-- Montrer mes compétences en **analyse de données, visualisation, nettoyage et insights métiers**  
-- Fournir des projets complets et **reproductibles**, prêts pour l’entretien ou démonstration.  
-- Permettre aux recruteurs de voir **mes compétences concrètes en Python et Data Analysis**.
-
----
