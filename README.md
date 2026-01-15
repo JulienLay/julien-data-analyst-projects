@@ -123,6 +123,7 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 ---
 
 ### 7. Mini Test Excel - Analyse Ventes Brutes
-- **Objectif** : Nettoyer, enrichir et analyser un fichier de ventes brutes pour identifier le top client et visualiser l’évolution du chiffre d’affaires.  
+- **Dossier** : `powerbi_festivals_analyse`
+- Nettoyer, enrichir et analyser un fichier de ventes brutes pour identifier le top client et visualiser l’évolution du chiffre d’affaires.  
 - **Techniques** : Nettoyage, jointure tables, colonnes calculées, tableaux croisés dynamiques, graphiques Excel.
 - **Lien vers le projet** : [README du projet détaillé](workflow_data_excel/README.md)
