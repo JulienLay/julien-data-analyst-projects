@@ -119,3 +119,10 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 
 - Compétences : Power BI, Data Visualisation, Analyse descriptive, KPIs, DAX.  
 - [README du projet détaillé](powerbi_developer_analyse/README.md)
+
+---
+
+### 7. Mini Test Excel - Analyse Ventes Brutes
+- **Objectif** : Nettoyer, enrichir et analyser un fichier de ventes brutes pour identifier le top client et visualiser l’évolution du chiffre d’affaires.  
+- **Techniques** : Nettoyage, jointure tables, colonnes calculées, tableaux croisés dynamiques, graphiques Excel.
+- **Lien vers le projet** : [README du projet détaillé](workflow_data_excel/README.md)
