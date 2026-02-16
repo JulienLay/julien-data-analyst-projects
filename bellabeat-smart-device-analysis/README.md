@@ -1,5 +1,18 @@
 # Bellabeat Smart Device Usage Analysis
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Business Context](#business-context)
+- [Business Task](#business-task)
+- [Key Business Questions](#key-business-questions)
+- [Selected Product Focus](#selected-product-focus)
+- [Prepare](#prepare)
+- [Process / Analysis](#process--analysis)
+- [Share: Insights & Visualizations](#share-insights--visualizations)
+- [Act: Key Recommendations for Bellabeat](#act-key-recommendations-for-bellabeat)
+
+---
+
 ## Project Overview
 
 This project analyzes non-Bellabeat smart device usage data to identify behavioral trends and translate them into strategic marketing recommendations for Bellabeat.
@@ -29,9 +42,9 @@ Analyze non-Bellabeat smart device usage data in order to:
 
 ## Key Business Questions
 
-1. What are the main trends in smart device usage ?  
-2. How do users differ in terms of engagement and activity levels ?  
-3. How can these behavioral patterns inform Bellabeat’s marketing strategy ?  
+1. What are the main trends in smart device usage?  
+2. How do users differ in terms of engagement and activity levels?  
+3. How can these behavioral patterns inform Bellabeat’s marketing strategy?  
 
 ---
 
@@ -43,7 +56,7 @@ The FitBit dataset provides activity and sleep metrics that closely align with L
 
 ---
 
-# PREPARE
+# Prepare
 
 ## Data Sources
 
@@ -139,7 +152,7 @@ These constraints limit the generalizability of the findings but still allow mea
 
 ---
 
-# PROCESS / ANALYSIS
+# Process / Analysis
 
 ## Global Descriptive Statistics
 
@@ -153,17 +166,6 @@ The main descriptive statistics across all users:
 | Total Sleep (minutes)   | 420     | -       | -       |
 | Time in Bed (minutes)   | 459     | -       | -       |
 | Calories                | 2,262   | -       | -       |
-
-## Step, Sleep, and Sedentary Distributions
-
-### Steps Distribution
-![Steps Distribution](data/processed/output/steps_distribution.png)
-
-### Sleep Duration Distribution
-![Sleep Duration](data/processed/output/sleep_distribution.png)
-
-### Sedentary Ratio Distribution
-![Sedentary Ratio](data/processed/output/sedentary_ratio_distribution.png)
 
 ## Weekday vs Weekend Comparison
 
@@ -196,7 +198,55 @@ The main descriptive statistics across all users:
 
 ## Reports & Outputs
 
-- Analysis script: `R/03_analysis_phase.R`
-- Generated report (PDF + R Markdown): `reports/Bellabeat_Analysis_Report.pdf` and `reports/Bellabeat_Analysis_Report.Rmd`
+- Analysis script: `R/03_analysis_phase.R`  
+- Generated report (PDF + R Markdown): `visuals/Bellabeat_Analysis_Report.pdf` and `reports/Bellabeat_Analysis_Report.Rmd`
 
-The `data/processed/output/` folder contains intermediate CSVs and plots generated during analysis (not pushed to GitHub).
+Intermediate CSVs and other generated outputs are stored in `data/processed/output/`.
+
+---
+
+## Share: Insights & Visualizations
+
+The analysis was conducted entirely in R, and all results, tables, and plots have been compiled in a comprehensive report.
+
+**Report:** [Bellabeat_Analysis_Report.pdf](visuals/Bellabeat_Analysis_Report.pdf)
+
+**Key Visualizations Generated:**
+
+- `avg_steps_weekday.png` – Average steps per weekday  
+- `avg_sleep_weekday.png` – Average sleep minutes per weekday  
+- `user_clusters.png` – User segmentation based on activity and sleep patterns  
+
+**What the report shows:**
+
+- Descriptive statistics of user activity, sleep, and sedentary behavior  
+- Trends between weekdays and weekends  
+- Correlation between steps and sleep per user  
+- Behavioral clusters highlighting patterns among users  
+
+---
+
+## Act: Key Recommendations for Bellabeat
+
+Based on the analysis of non-Bellabeat smart device data, the following recommendations are suggested:
+
+1. **Target Low-Activity Users**  
+   - Many users show low average steps and high sedentary time.  
+   - Bellabeat marketing could emphasize activity tracking features to engage these users.
+
+2. **Promote Sleep Tracking Features**  
+   - Correlation analysis shows variable sleep quality and duration.  
+   - Highlight the Leaf's sleep insights to encourage healthier habits.
+
+3. **Segment Marketing by User Behavior**  
+   - K-means clustering identifies distinct user groups:  
+     - High activity / good sleep  
+     - Moderate activity / moderate sleep  
+     - Low activity / low sleep  
+   - Tailor app notifications, emails, or campaigns based on these segments.
+
+4. **Weekend Engagement Strategies**  
+   - Activity dips on weekends for some users.  
+   - Push motivational content or challenges targeting weekend habits.
+
+These recommendations provide actionable insights for marketing strategy, product messaging, and user engagement.
