@@ -1,0 +1,152 @@
+---
+title: "Bellabeat Smart Device Analysis Report"
+author: "Julien LAY"
+date: "2026-02-16"
+output: pdf_document
+---
+
+## Project Overview
+
+This report presents a behavioral analysis of non-Bellabeat smart device usage to extract insights relevant for Bellabeat Leaf marketing and product positioning.
+
+---
+
+## Data Loading
+
+```{r data-loading}
+library(tidyverse)
+library(stats)
+
+data <- read_csv("../data/processed/final_dataset_prepared.csv")
+```
+
+---
+
+## Descriptive Statistics
+
+### Global Metrics
+
+```{r summary-stats}
+summary_stats <- data %>%
+  summarise(
+    mean_steps = mean(TotalSteps, na.rm = TRUE),
+    median_steps = median(TotalSteps, na.rm = TRUE),
+    sd_steps = sd(TotalSteps, na.rm = TRUE),
+    mean_active = mean(total_active_minutes, na.rm = TRUE),
+    mean_sedentary_ratio = mean(sedentary_ratio, na.rm = TRUE),
+    mean_sleep = mean(TotalMinutesAsleep, na.rm = TRUE),
+    mean_time_in_bed = mean(TotalTimeInBed, na.rm = TRUE),
+    mean_calories = mean(Calories, na.rm = TRUE)
+  )
+summary_stats
+```
+
+### Weekday vs Weekend Comparison
+
+```{r weekday-analysis}
+weekday_analysis <- data %>%
+  group_by(is_weekend) %>%
+  summarise(
+    mean_steps = mean(TotalSteps, na.rm = TRUE),
+    mean_sleep = mean(TotalMinutesAsleep, na.rm = TRUE),
+    mean_sedentary = mean(sedentary_ratio, na.rm = TRUE)
+  )
+weekday_analysis
+```
+
+---
+
+## Behavioral Patterns
+
+### Average Steps by Weekday
+
+```{r avg-steps-weekday}
+avg_steps_weekday <- data %>%
+  group_by(weekday) %>%
+  summarise(mean_steps = mean(TotalSteps, na.rm = TRUE)) %>%
+  arrange(match(weekday, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")))
+
+p_steps_weekday <- ggplot(avg_steps_weekday, aes(x = weekday, y = mean_steps)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  ggtitle("Average Steps by Weekday") +
+  xlab("Weekday") +
+  ylab("Average Steps")
+p_steps_weekday
+```
+
+### Average Sleep by Weekday
+
+```{r avg-sleep-weekday}
+avg_sleep_weekday <- data %>%
+  group_by(weekday) %>%
+  summarise(mean_sleep_minutes = mean(TotalMinutesAsleep, na.rm = TRUE)) %>%
+  arrange(match(weekday, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")))
+
+p_sleep_weekday <- ggplot(avg_sleep_weekday, aes(x = weekday, y = mean_sleep_minutes)) +
+  geom_bar(stat = "identity", fill = "darkgreen") +
+  ggtitle("Average Sleep Minutes by Weekday") +
+  xlab("Weekday") +
+  ylab("Average Sleep (minutes)")
+p_sleep_weekday
+```
+
+---
+
+## Correlation Analysis
+
+### Sleep vs Steps per User
+
+```{r sleep-steps-corr}
+user_corr <- data %>%
+  group_by(Id) %>%
+  summarise(
+    cor_steps_sleep = if(sum(!is.na(TotalSteps) & !is.na(TotalMinutesAsleep)) > 1) {
+      cor(TotalSteps, TotalMinutesAsleep, use = "complete.obs")
+    } else {
+      NA_real_
+    }
+  )
+user_corr
+```
+
+---
+
+## Behavioral Segmentation
+
+### K-means Clustering
+
+```{r kmeans-segmentation}
+segmentation_vars <- data %>%
+  group_by(Id) %>%
+  summarise(
+    avg_steps = mean(TotalSteps, na.rm = TRUE),
+    avg_sleep = mean(TotalMinutesAsleep, na.rm = TRUE),
+    avg_sedentary = mean(sedentary_ratio, na.rm = TRUE)
+  ) %>%
+  filter(!is.na(avg_steps) & !is.na(avg_sleep) & !is.na(avg_sedentary))
+
+seg_scaled <- scale(segmentation_vars[, -1])
+set.seed(123)
+k_clusters <- kmeans(seg_scaled, centers = 3)
+segmentation_vars$cluster <- k_clusters$cluster
+segmentation_vars
+```
+
+### Clusters Visualization
+
+```{r clusters-plot, echo=FALSE}
+ggplot(segmentation_vars, aes(x = avg_steps, y = avg_sleep, color = factor(cluster))) +
+  geom_point(size = 3) +
+  ggtitle("User Segmentation: Steps vs Sleep") +
+  xlab("Average Steps") +
+  ylab("Average Sleep (minutes)") +
+  scale_color_discrete(name = "Cluster")
+```
+
+---
+
+## Conclusions
+
+- Users show clear weekday/weekend variations in steps and sleep.  
+- Clustering reveals distinct behavioral segments based on activity and sleep patterns.  
+- These insights can inform marketing strategies and product positioning for Bellabeat Leaf.
