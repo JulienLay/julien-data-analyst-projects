@@ -127,3 +127,20 @@ Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visu
 - Nettoyer, enrichir et analyser un fichier de ventes brutes pour identifier le top client et visualiser l’évolution du chiffre d’affaires.  
 - **Techniques** : Nettoyage, jointure tables, colonnes calculées, tableaux croisés dynamiques, graphiques Excel.
 - **Lien vers le projet** : [README du projet détaillé](workflow_data_excel/README.md)
+
+---
+
+### 8. Analyse des usages de dispositifs connectés – Bellabeat Case Study (Coursera)
+- **Dossier** : `bellabeat-smart-device-analysis`
+- Analyse des comportements d’utilisateurs de dispositifs connectés non-Bellabeat pour en tirer des recommandations marketing pour **Bellabeat Leaf**.
+- Méthodologie :
+  - Préparation et nettoyage des données  
+  - Analyse descriptive et statistique des comportements  
+  - Segmentation des utilisateurs (clustering K-means)  
+  - Visualisations de tendances activité/sommeil et ratio sédentaire
+- Livrables :  
+  - Script d’analyse R : `R/03_analysis_phase.R`  
+  - Rapport complet PDF + R Markdown : `visuals/Bellabeat_Analysis_Report.pdf` et `reports/Bellabeat_Analysis_Report.Rmd`  
+  - Graphiques clés : `avg_steps_weekday.png`, `avg_sleep_weekday.png`, `user_clusters.png`
+- Compétences démontrées : R (tidyverse, ggplot2), Data Cleaning, Data Analysis, Reporting, Visualisation métier.
+- [README du projet détaillé](bellabeat-smart-device-analysis/README.md)
