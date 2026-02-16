@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  TotalMinutesAsleep by is_weekend
+t = -1.3889, df = 151.31, p-value = 0.1669
+alternative hypothesis: true difference in means between group Weekday and group Weekend is not equal to 0
+95 percent confidence interval:
+ -51.884026   9.050385
+sample estimates:
+mean in group Weekday mean in group Weekend 
+             414.1903              435.6071 
+

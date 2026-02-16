@@ -1,0 +1,12 @@
+
+	Welch Two Sample t-test
+
+data:  TotalSteps by is_weekend
+t = -0.19111, df = 366.98, p-value = 0.8485
+alternative hypothesis: true difference in means between group Weekday and group Weekend is not equal to 0
+95 percent confidence interval:
+ -892.4129  734.3159
+sample estimates:
+mean in group Weekday mean in group Weekend 
+             7471.523              7550.571 
+

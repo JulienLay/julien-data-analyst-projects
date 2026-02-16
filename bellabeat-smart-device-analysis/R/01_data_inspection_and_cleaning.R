@@ -11,9 +11,9 @@ library(tidyverse)
 # -----------------------------
 # 1. Data Import
 # -----------------------------
-daily_1 <- read_csv("Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
-daily_2 <- read_csv("Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
-sleep   <- read_csv("Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
+daily_1 <- read_csv("../data/raw/bellabeat-smart-device-analysis/data/raw/mturkfitbit_export_3.12.16-4.11.16/Fitabase Data 3.12.16-4.11.16/dailyActivity_merged.csv")
+daily_2 <- read_csv("../data/raw/bellabeat-smart-device-analysis/data/raw/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/dailyActivity_merged.csv")
+sleep   <- read_csv("../data/raw/bellabeat-smart-device-analysis/data/raw/mturkfitbit_export_4.12.16-5.12.16/Fitabase Data 4.12.16-5.12.16/sleepDay_merged.csv")
 
 # -----------------------------
 # 2. Merge Activity Datasets
@@ -70,7 +70,7 @@ sleep <- sleep %>%
   distinct()
 
 # -----------------------------
-# 6. Aggregate Sleep by User & Date (Fix Granularity)
+# 6. Aggregate Sleep by User & Date
 # -----------------------------
 sleep_clean <- sleep %>%
   group_by(Id, SleepDate) %>%
@@ -125,7 +125,7 @@ daily_activity_common <- daily_activity_common %>%
   )
 
 # -----------------------------
-# 9. Merge Activity & Sleep (Corrected)
+# 9. Merge Activity & Sleep
 # -----------------------------
 final_dataset <- daily_activity_common %>%
   left_join(
@@ -171,6 +171,6 @@ table(final_dataset$sleep_level, useNA = "ifany")
 # 12. Export prepared dataset
 # =====================================================
 
-write_csv(final_dataset, "final_dataset_prepared.csv")
+write_csv(final_dataset, "../data/processed/final_dataset_prepared.csv")
 
 cat("PREPARE phase complete. Dataset exported as 'final_dataset_prepared.csv'\n")

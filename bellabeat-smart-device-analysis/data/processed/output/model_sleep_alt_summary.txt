@@ -1,0 +1,22 @@
+
+Call:
+lm(formula = TotalMinutesAsleep ~ TotalSteps + sedentary_ratio, 
+    data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-451.81  -52.90   10.37   63.84  360.82 
+
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      7.540e+02  5.122e+01  14.721  < 2e-16 ***
+TotalSteps      -9.753e-03  1.485e-03  -6.568 1.51e-10 ***
+sedentary_ratio -3.467e+02  5.962e+01  -5.815 1.21e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 112.3 on 419 degrees of freedom
+  (542 observations deleted due to missingness)
+Multiple R-squared:  0.1092,	Adjusted R-squared:  0.105 
+F-statistic: 25.69 on 2 and 419 DF,  p-value: 2.99e-11
+

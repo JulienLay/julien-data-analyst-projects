@@ -135,4 +135,61 @@ These constraints limit the generalizability of the findings but still allow mea
 - License: CC0 Public Domain  
 - No personally identifiable information included  
 - Stored locally in structured raw and processed folders  
-- Original datasets preserved without alteration  
+- Original datasets preserved without alteration
+
+---
+
+# PROCESS / ANALYSIS
+
+## Global Descriptive Statistics
+
+The main descriptive statistics across all users:
+
+| Metric                  | Mean    | Median  | Std Dev |
+|-------------------------|---------|---------|---------|
+| Total Steps             | 7,492   | 7,280   | 5,120   |
+| Active Minutes          | 223     | -       | -       |
+| Sedentary Ratio         | 0.802   | -       | -       |
+| Total Sleep (minutes)   | 420     | -       | -       |
+| Time in Bed (minutes)   | 459     | -       | -       |
+| Calories                | 2,262   | -       | -       |
+
+## Step, Sleep, and Sedentary Distributions
+
+### Steps Distribution
+![Steps Distribution](data/processed/output/steps_distribution.png)
+
+### Sleep Duration Distribution
+![Sleep Duration](data/processed/output/sleep_distribution.png)
+
+### Sedentary Ratio Distribution
+![Sedentary Ratio](data/processed/output/sedentary_ratio_distribution.png)
+
+## Weekday vs Weekend Comparison
+
+| Period   | Mean Steps | Mean Sleep (min) | Mean Sedentary Ratio |
+|----------|-----------|-----------------|--------------------|
+| Weekday  | 7,472     | 414             | 0.804              |
+| Weekend  | 7,551     | 436             | 0.797              |
+
+## Segmentation by Activity Level
+
+| Activity Level | Mean Sleep (min) | Mean Calories | Mean Sedentary Ratio | Count |
+|----------------|----------------|---------------|--------------------|-------|
+| Low            | 454            | 1,730         | 0.904              | 323   |
+| Moderate       | 422            | 2,338         | 0.769              | 338   |
+| High           | 396            | 2,744         | 0.730              | 303   |
+
+## Statistical Insights
+
+- ANOVA: Significant difference in sleep between activity levels (p < 0.001)  
+- T-tests: No significant difference in steps or sleep between weekdays and weekends  
+- Pearson correlation: Weak negative correlation between steps and sleep (r = -0.19)  
+- Quartile analysis: Higher step quartiles are associated with lower sleep duration and higher calories burned  
+
+## Linear Regression
+
+- Multiple linear regression indicates that **steps, sedentary ratio, and calories** explain ~11% of variance in sleep duration  
+- Calorie-free alternative model still shows steps and sedentary ratio as significant predictors  
+
+> All raw and processed outputs, tables, and full model summaries are available in `/data/processed/output`
