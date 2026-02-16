@@ -193,3 +193,10 @@ The main descriptive statistics across all users:
 - Calorie-free alternative model still shows steps and sedentary ratio as significant predictors  
 
 > All raw and processed outputs, tables, and full model summaries are available in `/data/processed/output`
+
+## Reports & Outputs
+
+- Analysis script: `R/03_analysis_phase.R`
+- Generated report (PDF + R Markdown): `reports/Bellabeat_Analysis_Report.pdf` and `reports/Bellabeat_Analysis_Report.Rmd`
+
+The `data/processed/output/` folder contains intermediate CSVs and plots generated during analysis (not pushed to GitHub).
