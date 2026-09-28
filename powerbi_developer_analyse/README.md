@@ -1,47 +1,48 @@
-# Portfolio Power BI – Analyse du marché des développeurs
+# Power BI Portfolio – Developer Market Analysis
 
-## Description du projet
-Ce projet Power BI a été réalisé pour analyser le marché des développeurs à travers différents critères : répartition, niveau d’expérience, langages utilisés, localisation, budget, et impact de l’IA.  
+## Project Description
 
-Le repository contient :  
-- Le fichier Power BI complet (.pbix)  
-- Un PDF récapitulatif du rendu visuel du dashboard  
+This Power BI project was created to analyze the developer market across different criteria, including distribution, experience level, programming languages, location, salary, and the impact of AI.
 
----
-
-## Contenu du repository
-- `developer_analyse.pbix` → fichier Power BI avec toutes les visualisations et mesures DAX  
-- `Visualisation.pdf` → rendu visuel du dashboard, page par page  
-
-
-[Voir le rendu visuel du dashboard](Visualisation.pdf)
+The repository contains:
+- The complete Power BI file (`.pbix`)
+- A PDF export providing a visual overview of the dashboard
 
 ---
 
-## Pages du dashboard
+## Repository Contents
 
-1. **Répartition des développeurs**  
-2. **Niveau par âge et expérience**  
-3. **Emplois de développeur dans le monde**  
-4. **Niveaux d’éducation dans le monde**  
-5. **Langages**  
-6. **Budget**  
-7. **Lieu de travail**  
-8. **Impact de l’IA**  
+- `developer_analyse.pbix` → Power BI file containing all visualizations and DAX measures
+- `Visualisation.pdf` → Visual export of the dashboard, page by page
+
+[View the dashboard](Visualisation.pdf)
 
 ---
 
-## Technologies utilisées
-- **Power BI Desktop** : création des dashboards interactifs  
-- **DAX** : pour calculs analytiques (totaux, moyennes, filtres dynamiques)  
-- **Export PDF** : rendu visuel statique du dashboard  
+## Dashboard Pages
+
+1. **Developer Distribution**
+2. **Age and Experience**
+3. **Developer Jobs Around the World**
+4. **Education Levels Around the World**
+5. **Programming Languages**
+6. **Salary**
+7. **Work Location**
+8. **Impact of AI**
 
 ---
 
-## Instructions pour utiliser le projet
-1. Ouvrir le fichier `.pbix` dans **Power BI Desktop**  
-2. Explorer chaque page avec les **slicers interactifs**  
-3. Filtrer les données par pays, continent, âge, expérience, etc.  
-4. Le fichier PDF permet de visualiser rapidement le dashboard sans Power BI  
+## Technologies Used
+
+- **Power BI Desktop**: creation of interactive dashboards
+- **DAX**: analytical calculations, including totals, averages, and dynamic filters
+- **PDF Export**: static visual representation of the dashboard
 
 ---
+
+## How to Use the Project
+
+1. Open the `.pbix` file in **Power BI Desktop**
+2. Explore each dashboard page using the **interactive slicers**
+3. Filter the data by country, continent, age, experience, etc.
+4. Use the PDF file to quickly view the dashboard without opening Power BI
