@@ -1,146 +1,157 @@
-# Julien – Projets Data Analyst / Data Scientist
+# Julien – Data Analyst / Data Scientist Projects
 
-Bienvenue sur mon portfolio de projets Data Analyst et Data Scientist.  
-Chaque projet est autonome et documenté avec **notebook, dataset nettoyé, visualisations et README**.
-
----
-
-## Objectif du portfolio
-- Montrer mes compétences en **analyse de données, visualisation, nettoyage et insights métiers**  
-- Fournir des projets complets et **reproductibles**, prêts pour l’entretien ou démonstration.  
-- Permettre aux recruteurs de voir **mes compétences concrètes en Python et Data Analysis**.
+Welcome to my portfolio of Data Analyst and Data Science projects.  
+Each project is self-contained and documented with **notebooks, cleaned datasets, visualizations, and a dedicated README**.
 
 ---
 
-## Projets inclus
+## Portfolio Goals
+
+- Demonstrate my skills in **data analysis, data visualization, data cleaning, and business insights**
+- Provide complete and **reproducible** projects suitable for technical interviews or demonstrations
+- Showcase **hands-on experience with Python and Data Analysis** through practical projects
 
 ---
 
-### 1. Analyse du taux de chômage par département – T3 2025
-- **Dossier** : `taux_chomage_departements`  
-- Analyse des taux de chômage par département en France.  
-- Visualisations : bar chart, histogramme, évolution trimestrielle, heatmap.  
-- [README du projet détaillé](taux_chomage_departements/README.md)
+## Projects
 
 ---
 
-### 2. Analyse clients et segmentation RFM – Online Retail
-- **Dossier** : `analyse_ventes_ecommerce`  
-- Analyse des transactions clients d’un site e-commerce et segmentation RFM (**Recency, Frequency, Monetary**) pour identifier :
-  - Meilleurs clients  
-  - Clients fidèles  
-  - Clients récents  
-  - Clients à risque  
-- Visualisations : répartition des segments, chiffre d’affaires par segment, chiffre d’affaires mensuel.  
-- [README du projet détaillé](analyse_ventes_ecommerce/README.md)
+### 1. Unemployment Rate Analysis by French Department – Q3 2025
+
+- **Folder:** `taux_chomage_departements`
+- Analysis of unemployment rates across French departments
+- Visualizations: bar charts, histograms, quarterly trends, and heatmaps
+- [Detailed project README](taux_chomage_departements/README.md)
 
 ---
 
-### 3. Prévision du chiffre d’affaires mensuel – Store Item Demand Forecasting
-- **Dossier** : `sales_forecasting`  
-- Analyse et prévision du chiffre d’affaires d’un site e-commerce par produit et par mois.  
-- Visualisations : CA mensuel, CA par pays, top 10 produits, prévision linéaire.  
-- [README du projet détaillé](sales_forecasting/README.md)
+### 2. Customer Analysis and RFM Segmentation – Online Retail
+
+- **Folder:** `analyse_ventes_ecommerce`
+- Analysis of e-commerce customer transactions and RFM (**Recency, Frequency, Monetary**) segmentation to identify:
+  - Top customers
+  - Loyal customers
+  - Recent customers
+  - At-risk customers
+- Visualizations: segment distribution, revenue by segment, and monthly revenue
+- [Detailed project README](analyse_ventes_ecommerce/README.md)
 
 ---
 
-### 4. Analyse des films – MovieLens (Python + SQL)
-- **Dossier** : `python_sql_movie_analysis`  
-- Mini-projet d’analyse de données sur le dataset [MovieLens](https://grouplens.org/datasets/movielens/) pour explorer les films, les utilisateurs et leurs notes.  
-- Objectifs :  
-  - Calculer la moyenne des notes par genre et par tranche d’âge du film  
-  - Étudier la corrélation entre nombre de votes et note moyenne  
-  - Visualiser les résultats avec **Matplotlib** et **Seaborn**  
-  - Réaliser une **mini-prédiction** des notes avec Linear Regression  
-- Compétences démontrées : Python (Pandas, Matplotlib, Seaborn, scikit-learn), SQL via SQLite, Data Cleaning, Visualisation, Modélisation simple  
-- [README du projet détaillé](python_sql_movie_analysis/README.md)
+### 3. Monthly Revenue Forecasting – Store Item Demand Forecasting
+
+- **Folder:** `sales_forecasting`
+- Analysis and forecasting of e-commerce revenue by product and month
+- Visualizations: monthly revenue, revenue by country, top 10 products, and linear forecasting
+- [Detailed project README](sales_forecasting/README.md)
 
 ---
 
-### 5. Analyse des festivals – Dashboard Power BI
-- **Dossier** : `powerbi_festivals_analyse`  
-- Analyse interactive des festivals et événements culturels à travers différentes disciplines artistiques.  
-- Fichiers inclus :
-  - `festivals.pbix` → Dashboard Power BI interactif  
-  - `festivals.pdf` → Rendu visuel du dashboard  
+### 4. Movie Analysis – MovieLens (Python + SQL)
 
-**Pages du dashboard :**
-- **Événements dans le monde** : carte interactive avec filtres par région et date  
-- **Régions & communes** :  
-  - Nombre de régions par décennie de création  
-  - Nombre de communes par discipline  
-  - Carte des régions de déroulement  
-- **Audiovisuel & littérature** :  
-  - Disciplines dominantes pour arts visuels & numériques  
-  - Cinéma & audiovisuel  
-  - Littérature  
-- **Musiques & spectacles** :  
-  - Musique  
-  - Musique CNM  
-  - Spectacles vivants  
-
-- Compétences : Power BI, Data Visualisation, Analyse descriptive, DAX.  
-- [README du projet détaillé](powerbi_festivals_analyse/README.md)
+- **Folder:** `python_sql_movie_analysis`
+- Data analysis project based on the [MovieLens dataset](https://grouplens.org/datasets/movielens/) to explore movies, users, and ratings
+- **Objectives:**
+  - Calculate average ratings by genre and movie age group
+  - Analyze the correlation between the number of votes and average ratings
+  - Visualize results using **Matplotlib** and **Seaborn**
+  - Build a **simple rating prediction model** using Linear Regression
+- **Skills demonstrated:** Python (Pandas, Matplotlib, Seaborn, scikit-learn), SQL with SQLite, data cleaning, visualization, and basic modeling
+- [Detailed project README](python_sql_movie_analysis/README.md)
 
 ---
 
-### 6. Analyse du marché des développeurs – Dashboard Power BI
-- **Dossier** : `powerbi_developer_analyse`  
-- Analyse du marché des développeurs à l’échelle mondiale à partir de données socio-professionnelles.    
+### 5. Festival Analysis – Power BI Dashboard
 
-**Pages du dashboard :**
-- **Répartition des développeurs**
-  - Carte mondiale et indicateurs de répartition par pays et région  
+- **Folder:** `powerbi_festivals_analyse`
+- Interactive analysis of festivals and cultural events across different artistic disciplines
+- **Included files:**
+  - `festivals.pbix` → Interactive Power BI dashboard
+  - `festivals.pdf` → Visual export of the dashboard
 
-- **Niveau par âge et expérience**
-  - Analyse croisée de l’âge et de l’expérience professionnelle  
-  - Visualisations comparatives  
+**Dashboard pages:**
 
-- **Emplois de développeur dans le monde**
-  - Répartition géographique des opportunités d’emploi  
-  - Filtres interactifs par zone  
+- **Events Around the World:** interactive map with region and date filters
+- **Regions & Municipalities:**
+  - Number of regions by creation decade
+  - Number of municipalities by discipline
+  - Map of event regions
+- **Audiovisual & Literature:**
+  - Leading disciplines in visual and digital arts
+  - Film & audiovisual
+  - Literature
+- **Music & Live Performances:**
+  - Music
+  - CNM Music
+  - Live performances
 
-- **Niveaux d’éducation dans le monde**
-  - Analyse des niveaux de formation des développeurs  
-  - Comparaison par région  
-
-- **Langages**
-  - Popularité des langages de programmation  
-  - Comparaisons par type de profil  
-
-- **Budget**
-  - Analyse des budgets / rémunérations par poste et localisation  
-
-- **Lieu de travail**
-  - Répartition remote / hybride / présentiel  
-
-- **Impact de l’IA**
-  - Adoption de l’IA et perception de son impact sur le métier de développeur  
-
-- Compétences : Power BI, Data Visualisation, Analyse descriptive, KPIs, DAX.  
-- [README du projet détaillé](powerbi_developer_analyse/README.md)
+- **Skills:** Power BI, data visualization, descriptive analysis, DAX
+- [Detailed project README](powerbi_festivals_analyse/README.md)
 
 ---
 
-### 7. Mini Test Excel - Analyse Ventes Brutes
-- **Dossier** : `workflow_data_excel`
-- Nettoyer, enrichir et analyser un fichier de ventes brutes pour identifier le top client et visualiser l’évolution du chiffre d’affaires.  
-- **Techniques** : Nettoyage, jointure tables, colonnes calculées, tableaux croisés dynamiques, graphiques Excel.
-- **Lien vers le projet** : [README du projet détaillé](workflow_data_excel/README.md)
+### 6. Global Developer Market Analysis – Power BI Dashboard
+
+- **Folder:** `powerbi_developer_analyse`
+- Analysis of the global developer market based on professional and demographic data
+
+**Dashboard pages:**
+
+- **Developer Distribution**
+  - Global map and distribution indicators by country and region
+
+- **Age & Professional Experience**
+  - Cross-analysis of age and professional experience
+  - Comparative visualizations
+
+- **Developer Jobs Worldwide**
+  - Geographical distribution of developer job opportunities
+  - Interactive filters by region
+
+- **Education Levels Worldwide**
+  - Analysis of developers' education levels
+  - Regional comparisons
+
+- **Programming Languages**
+  - Popularity of programming languages
+  - Comparisons by developer profile
+
+- **Compensation**
+  - Analysis of compensation by role and location
+
+- **Work Location**
+  - Distribution of remote / hybrid / on-site work
+
+- **Impact of AI**
+  - AI adoption and perceptions of its impact on software development
+
+- **Skills:** Power BI, data visualization, descriptive analysis, KPIs, DAX
+- [Detailed project README](powerbi_developer_analyse/README.md)
 
 ---
 
-### 8. Analyse des usages de dispositifs connectés – Bellabeat Case Study (Coursera)
-- **Dossier** : `bellabeat-smart-device-analysis`
-- Analyse des comportements d’utilisateurs de dispositifs connectés non-Bellabeat pour en tirer des recommandations marketing pour **Bellabeat Leaf**.
-- Méthodologie :
-  - Préparation et nettoyage des données  
-  - Analyse descriptive et statistique des comportements  
-  - Segmentation des utilisateurs (clustering K-means)  
-  - Visualisations de tendances activité/sommeil et ratio sédentaire
-- Livrables :  
-  - Script d’analyse R : `R/03_analysis_phase.R`  
-  - Rapport complet PDF + R Markdown : `visuals/Bellabeat_Analysis_Report.pdf` et `reports/Bellabeat_Analysis_Report.Rmd`  
-  - Graphiques clés : `avg_steps_weekday.png`, `avg_sleep_weekday.png`, `user_clusters.png`
-- Compétences démontrées : R (tidyverse, ggplot2), Data Cleaning, Data Analysis, Reporting, Visualisation métier.
-- [README du projet détaillé](bellabeat-smart-device-analysis/README.md)
+### 7. Excel Mini Project – Raw Sales Analysis
+
+- **Folder:** `workflow_data_excel`
+- Clean, enrich, and analyze a raw sales dataset to identify the top customer and visualize revenue trends
+- **Techniques:** Data cleaning, table joins, calculated columns, pivot tables, and Excel charts
+- **Project:** [Detailed project README](workflow_data_excel/README.md)
+
+---
+
+### 8. Smart Device Usage Analysis – Bellabeat Case Study (Coursera)
+
+- **Folder:** `bellabeat-smart-device-analysis`
+- Analysis of non-Bellabeat smart device user behavior to derive marketing recommendations for **Bellabeat Leaf**
+- **Methodology:**
+  - Data preparation and cleaning
+  - Descriptive and statistical analysis of user behavior
+  - User segmentation using K-means clustering
+  - Visualization of activity and sleep trends and sedentary behavior
+- **Deliverables:**
+  - R analysis script: `R/03_analysis_phase.R`
+  - Full PDF report + R Markdown: `visuals/Bellabeat_Analysis_Report.pdf` and `reports/Bellabeat_Analysis_Report.Rmd`
+  - Key visualizations: `avg_steps_weekday.png`, `avg_sleep_weekday.png`, `user_clusters.png`
+- **Skills demonstrated:** R (tidyverse, ggplot2), data cleaning, data analysis, reporting, and business visualization
+- [Detailed project README](bellabeat-smart-device-analysis/README.md)
