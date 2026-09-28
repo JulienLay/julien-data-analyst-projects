@@ -1,58 +1,60 @@
-# Portfolio Power BI – Analyse des festivals
+# Power BI Portfolio – Festival Analysis
 
-## Description du projet
-Ce projet Power BI analyse différents aspects des festivals à travers le monde : localisation des événements, répartition par région et commune, disciplines artistiques dominantes et types de spectacles.  
+## Project Description
 
-Le repository contient :  
-- Le fichier Power BI complet (`festivals.pbix`)  
-- Un PDF récapitulatif du rendu visuel du dashboard (`festivals.pdf`)  
+This Power BI project analyzes different aspects of festivals around the world, including event locations, regional and municipality distribution, leading artistic disciplines, and types of performances.
 
----
-
-## Contenu du repository
-- `festivals.pbix` → fichier Power BI avec toutes les visualisations et mesures DAX  
-- `festivals.pdf` → rendu visuel du dashboard, page par page  
-
-
-[Voir le rendu visuel du dashboard](festivals.pdf)
+The repository contains:
+- The complete Power BI file (`festivals.pbix`)
+- A PDF export providing a visual overview of the dashboard (`festivals.pdf`)
 
 ---
 
-## Pages du dashboard
+## Repository Contents
 
-1. **Événements dans le monde**  
-   - Carte interactive montrant la localisation des festivals  
-   - Slicers pour sélectionner la **région** et la **date** des événements  
+- `festivals.pbix` → Power BI file containing all visualizations and DAX measures
+- `festivals.pdf` → Visual export of the dashboard, page by page
 
-2. **Régions & communes**  
-   - Analyse du **nombre de régions par décennie de création** des festivals  
-   - Analyse du **nombre de communes par discipline**  
-   - Carte interactive affichant les régions de déroulement des événements  
-
-3. **Audiovisuel & littérature**  
-   - Trois graphiques en **camembert** :  
-     - Disciplines dominantes pour **arts visuels et arts numériques**  
-     - Disciplines dominantes pour **cinéma et audiovisuel**  
-     - Disciplines dominantes pour **littérature**  
-
-4. **Musiques & spectacles**  
-   - Même structure que la page 3 :  
-     - Disciplines dominantes pour **musique**  
-     - Disciplines dominantes pour **musique CNM**  
-     - Disciplines dominantes pour **spectacles vivants**  
+[View the dashboard](festivals.pdf)
 
 ---
 
-## Technologies utilisées
-- **Power BI Desktop** : création des dashboards interactifs  
-- **DAX** : pour calculs analytiques et mesures dynamiques  
-- **Export PDF** : pour partager un rendu visuel statique  
+## Dashboard Pages
+
+1. **Events Around the World**
+   - Interactive map showing festival locations
+   - Slicers to filter events by **region** and **date**
+
+2. **Regions & Municipalities**
+   - Analysis of the **number of regions by festival creation decade**
+   - Analysis of the **number of municipalities by discipline**
+   - Interactive map showing the regions where events take place
+
+3. **Audiovisual & Literature**
+   - Three **pie charts** showing:
+     - Leading disciplines in **visual and digital arts**
+     - Leading disciplines in **film and audiovisual**
+     - Leading disciplines in **literature**
+
+4. **Music & Live Performances**
+   - Same structure as page 3:
+     - Leading disciplines in **music**
+     - Leading disciplines in **CNM music**
+     - Leading disciplines in **live performances**
 
 ---
 
-## Instructions pour utiliser le projet
-1. Ouvrir le fichier `festivals.pbix` dans **Power BI Desktop**  
-2. Explorer chaque page du dashboard avec les **slicers interactifs**  
-3. Filtrer les données par région, date, discipline, etc.  
-4. Le fichier PDF permet de visualiser rapidement le dashboard sans Power BI  
+## Technologies Used
 
+- **Power BI Desktop**: creation of interactive dashboards
+- **DAX**: analytical calculations and dynamic measures
+- **PDF Export**: sharing a static visual representation of the dashboard
+
+---
+
+## How to Use the Project
+
+1. Open `festivals.pbix` in **Power BI Desktop**
+2. Explore each dashboard page using the **interactive slicers**
+3. Filter the data by region, date, discipline, etc.
+4. Use the PDF file to quickly view the dashboard without opening Power BI
