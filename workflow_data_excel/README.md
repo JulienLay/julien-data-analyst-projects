@@ -1,52 +1,65 @@
-# Mini Test Data Analyst - Analyse Ventes Brutes
+# Mini Data Analyst Test - Raw Sales Analysis
 
 ## Description
-Ce projet est un mini test de Data Analyst réalisé sur Excel.  
-L’objectif est d’analyser un fichier de ventes brutes, en appliquant des techniques courantes de nettoyage, d’enrichissement, de synthèse et de visualisation de données.  
-Il illustre la méthodologie d’un Data Analyst pour passer de données brutes à un reporting exploitable.
 
-## Objectifs du projet
-- Nettoyer les données brutes (formats, doublons, valeurs manquantes)
-- Ajouter des colonnes calculées :
-  - Chiffre d’affaires (`Quantité * Prix_unitaire`)
-  - Mois/Année à partir de la date
-  - Segment client via jointure avec un onglet de référence
-- Créer des tableaux croisés dynamiques pour analyser :
-  - Le chiffre d’affaires par client
-  - Le chiffre d’affaires par pays et par mois
-- Identifier le client avec le plus gros chiffre d’affaires
-- Visualiser l’évolution mensuelle du chiffre d’affaires via un graphique Excel
+This project is a mini Data Analyst test carried out in Excel.
 
-## Workflow Data Analyst
-1. **Import et inspection des données brutes**
-   - Vérification des types de données (date, texte, nombres)
-   - Recherche et suppression des doublons
-2. **Nettoyage et préparation**
-   - Conversion des dates au format correct
-   - Suppression des valeurs incorrectes ou vides
-3. **Enrichissement des données**
-   - Calcul du chiffre d’affaires par ligne
-   - Extraction du mois et année
-   - Ajout du segment client depuis une table de référence (RECHERCHEX / INDEX-EQUIV)
-4. **Analyse**
-   - Création de tableaux croisés dynamiques
-   - Filtrage par segment, pays, ou période
-   - Tri pour identifier le top client
-5. **Visualisation**
-   - Graphique d’évolution du chiffre d’affaires par mois
-   - Optionnel : filtrage par client ou segment pour comparaisons
-6. **Reporting / vérification**
-   - Contrôle de cohérence des calculs
-   - Vérification des résultats du TCD et du graphique
+The goal is to analyze a raw sales dataset using common data cleaning, enrichment, summarization, and visualization techniques.
 
-## Technologies et outils
-- Excel (Tableaux croisés dynamiques, Formules, Graphiques)
-- Power Query (optionnel pour nettoyage et transformation)
-- Méthodologie Data Analyst
+It demonstrates a Data Analyst workflow for turning raw data into actionable reporting.
 
-## Résultat attendu
-Un fichier Excel propre et structuré avec :
-- Données brutes et enrichies
-- Tableau croisé dynamique interactif
-- Graphique clair montrant l’évolution du CA par mois
-- Possibilité de filtrer par client ou segment
+## Project Objectives
+
+- Clean raw data (formats, duplicates, missing values)
+- Add calculated columns:
+  - Revenue (`Quantity * Unit_Price`)
+  - Month/Year extracted from the date
+  - Customer segment using a lookup from a reference sheet
+- Create pivot tables to analyze:
+  - Revenue by customer
+  - Revenue by country and month
+- Identify the customer generating the highest revenue
+- Visualize monthly revenue trends using an Excel chart
+
+## Data Analyst Workflow
+
+1. **Import and Inspection of Raw Data**
+   - Check data types (dates, text, numbers)
+   - Identify and remove duplicates
+
+2. **Data Cleaning and Preparation**
+   - Convert dates to the correct format
+   - Remove incorrect or empty values
+
+3. **Data Enrichment**
+   - Calculate revenue for each row
+   - Extract month and year
+   - Add the customer segment from a reference table (XLOOKUP / INDEX-MATCH)
+
+4. **Analysis**
+   - Create pivot tables
+   - Filter by segment, country, or period
+   - Sort data to identify the top customer
+
+5. **Visualization**
+   - Create a monthly revenue trend chart
+   - Optionally filter by customer or segment for comparison
+
+6. **Reporting / Validation**
+   - Check the consistency of calculations
+   - Validate pivot table and chart results
+
+## Technologies and Tools
+
+- Excel (Pivot Tables, Formulas, Charts)
+- Power Query (optional, for data cleaning and transformation)
+- Data Analyst methodology
+
+## Expected Output
+
+A clean and structured Excel file containing:
+
+- Raw and enriched data
+- An interactive pivot table
+- A clear chart showing monthly revenue trends
+- The ability to filter data by customer or segment
