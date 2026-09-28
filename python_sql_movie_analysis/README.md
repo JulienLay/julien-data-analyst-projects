@@ -1,65 +1,56 @@
 # Python + SQL Movie Analysis
 
-Ce projet est un mini-projet de **Data Analysis** sur le dataset [MovieLens](https://grouplens.org/datasets/movielens/) pour illustrer mes compétences en Python, SQL et analyse de données.  
+This project is a mini **Data Analysis** project based on the [MovieLens dataset](https://grouplens.org/datasets/movielens/) to demonstrate my skills in Python, SQL, and data analysis.
 
 ---
 
-## Objectifs du projet
+## Project Objectives
 
-- Explorer et analyser les données utilisateurs, films et notes.  
-- Calculer des métriques :  
-  - Moyenne des notes par genre  
-  - Moyenne des notes par tranche d'âge du film  
-  - Corrélation nombre de votes vs note moyenne  
-- Visualiser les résultats avec **Matplotlib** et **Seaborn**.  
-- Réaliser une **prédiction simple** (Linear Regression) pour estimer la note d’un film à partir des genres et de son âge.  
-
----
-
-## Étapes principales du notebook
-
-1. **Import des données** avec `pandas`.  
-2. **Prétraitement** :
-   - Conversion des dates en datetime
-   - Calcul de l'année de sortie et de l'âge des films
-   - Gestion des valeurs manquantes
-3. **Chargement des données dans SQLite** pour démontrer les compétences SQL.  
-4. **Analyse exploratoire** :
-   - Moyenne des notes par genre et par tranche d’âge
-   - Corrélation votes vs note moyenne
-5. **Visualisations** :
-   - Heatmap des notes par genre
-   - Boxplot par tranche d’âge
-   - Scatter plot votes vs note
-6. **Mini-prédiction** :
-   - Linear Regression pour prédire la note d’un film
-   - Gestion des valeurs manquantes avec `SimpleImputer`
-   - Séparation train/test et calcul du R²
+- Explore and analyze user, movie, and rating data.
+- Calculate key metrics:
+  - Average ratings by genre
+  - Average ratings by movie age group
+  - Correlation between number of votes and average rating
+- Visualize results using **Matplotlib** and **Seaborn**.
+- Build a **simple prediction model** using Linear Regression to estimate a movie's rating based on its genres and age.
 
 ---
 
-## Compétences démontrées
+## Main Notebook Steps
 
-- Python (Pandas, Matplotlib, Seaborn, scikit-learn)  
-- SQL (via SQLite)  
-- Data Cleaning / Prétraitement  
-- Visualisation et storytelling de données  
-- Mini-modélisation prédictive  
+1. **Data import** using `pandas`.
+2. **Data preprocessing:**
+   - Convert dates to datetime
+   - Calculate release year and movie age
+   - Handle missing values
+3. **Load the data into SQLite** to demonstrate SQL skills.
+4. **Exploratory data analysis:**
+   - Average ratings by genre and movie age group
+   - Correlation between number of votes and average rating
+5. **Visualizations:**
+   - Heatmap of ratings by genre
+   - Boxplot by movie age group
+   - Scatter plot of votes vs. average rating
+6. **Simple predictive modeling:**
+   - Linear Regression to predict a movie's rating
+   - Handle missing values using `SimpleImputer`
+   - Train/test split and R² evaluation
 
 ---
 
-## Comment utiliser
+## Skills Demonstrated
 
-1. Cloner le projet :  
+- Python (Pandas, Matplotlib, Seaborn, scikit-learn)
+- SQL (via SQLite)
+- Data Cleaning / Preprocessing
+- Data Visualization and Data Storytelling
+- Basic Predictive Modeling
 
-```
+---
+
+## How to Use
+
+1. Clone the project:
+
+```bash
 git clone https://github.com/JulienLay/julien-data-analyst-projects/tree/main/python_sql_movie_analysis
-```
-
-2. Installer les dépendances :
-
-```
-pip install pandas matplotlib seaborn scikit-learn
-```
-
-3. Ouvrir le notebook `notebooks/movie_analysis.ipynb` et exécuter les cellules.
