@@ -1,50 +1,62 @@
-# Analyse du taux de chômage par département – T3 2025
+# Unemployment Rate Analysis by French Department - Q3 2025
 
-## Objectif
-Ce projet vise à analyser le **taux de chômage par département en France** pour le 3ᵉ trimestre 2025 à partir des données publiques INSEE.  
-L'objectif est de **transformer des données brutes en insights exploitables** et de produire des visualisations claires pour soutenir la décision.
+## Objective
+
+This project analyzes **unemployment rates across French departments** for Q3 2025 using publicly available INSEE data.
+
+The goal is to **turn raw data into actionable insights** and produce clear visualizations to support data-driven decision-making.
 
 ## Dataset
-- Source : INSEE – [Taux de chômage localisés au 3ᵉ trimestre 2025](https://www.insee.fr/fr/statistiques/2012804)  
-- Fichier principal : `data/raw/TCRD_025.xlsx`  
-- Fichier nettoyé utilisé pour l'analyse : `data/cleaned/chomage_departements_clean.csv`  
-- Contient les taux de chômage par département pour T3 2025, T2 2025 et T3 2024.
 
-## Outils
-- **Python**  
-  - pandas, numpy  
-  - matplotlib, seaborn  
-- Jupyter Notebook (`01_analysis.ipynb`)  
+- Source: INSEE – [Localized unemployment rates for Q3 2025](https://www.insee.fr/fr/statistiques/2012804)
+- Raw dataset: `data/raw/TCRD_025.xlsx`
+- Cleaned dataset used for the analysis: `data/cleaned/chomage_departements_clean.csv`
+- Contains unemployment rates by department for Q3 2025, Q2 2025, and Q3 2024.
 
-## Méthodologie
-1. **Nettoyage des données** : conversion des valeurs en float, suppression des lignes vides, renommage des colonnes  
-2. **Analyse exploratoire** : statistiques descriptives, comparaison entre départements  
-3. **Visualisations** :  
-   - Bar chart du T3 2025 par département  
-   - Histogramme de distribution des taux  
-   - Évolution des taux par département sur 3 trimestres  
-   - Heatmap de corrélation  
-4. **Insights / conclusion** : identification des départements à surveiller ou en amélioration.
+## Tools
 
-## Visualisations
+- **Python**
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+- Jupyter Notebook (`01_analysis.ipynb`)
 
-### Bar Chart – Taux de chômage par département
+## Methodology
+
+1. **Data cleaning:** conversion of values to numeric format, removal of empty rows, and column renaming
+2. **Exploratory analysis:** descriptive statistics and comparison across departments
+3. **Data visualization:**
+   - Bar chart of Q3 2025 unemployment rates by department
+   - Distribution histogram
+   - Unemployment rate trends by department across three quarters
+   - Correlation heatmap
+4. **Insights and conclusions:** identification of departments requiring attention and departments showing improvement
+
+## Visualizations
+
+### Bar Chart – Unemployment Rate by Department
+
 ![Bar Chart](./data/visuals/evolution_taux_chomage_par_departement.png)
 
-### Histogramme – Distribution des taux
-![Histogramme](./data/visuals/distribution_taux_chomage.png)
+### Histogram – Unemployment Rate Distribution
 
-### Évolution par trimestre
-![Évolution](./data//visuals/taux_chomage_evolution.png)
+![Histogram](./data/visuals/distribution_taux_chomage.png)
 
-### Corrélations entre trimestres
+### Quarterly Trends
+
+![Trends](./data/visuals/taux_chomage_evolution.png)
+
+### Correlations Between Quarters
+
 ![Heatmap](./data/visuals/correlation_heatmap.png)
 
-## Insights clés
-- Les départements avec un taux de chômage supérieur à la moyenne nationale peuvent nécessiter des mesures spécifiques.  
-- Certains départements sont en amélioration par rapport aux trimestres précédents, indiquant une dynamique positive.  
-- La visualisation permet de **comparer rapidement les départements et détecter les tendances**.  
+## Key Insights
+
+- Departments with unemployment rates above the national average may require specific attention.
+- Some departments show improvement compared with previous quarters, indicating positive trends.
+- The visualizations make it possible to **quickly compare departments and identify trends**.
 
 ---
 
-Ce projet montre comment **analyser un dataset public, produire des visualisations claires et extraire des insights exploitables**, compétences essentielles pour un rôle de Data Analyst.
+This project demonstrates how to **analyze a public dataset, create clear visualizations, and extract actionable insights** - key skills for a Data Analyst role.
